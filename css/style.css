@@ -1,4 +1,5 @@
 body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 100px 0;
     background-color: #c33;
 }
@@ -27,6 +28,15 @@ body {
     left: 0;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
+}
+
+.name {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
 }
 
 @keyframes heartbeat {
